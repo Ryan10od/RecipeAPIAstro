@@ -1,0 +1,22 @@
+---
+import MySiteLayout from "../layouts/Layout.astro";
+import CardsMOT from "../components/CardsMOT.astro";
+import Footer from "../components/Footer.astro";
+const { title } = Astro.props;
+---
+
+<MySiteLayout title="Meet Our Team">
+    <h1>Meet Our Team</h1>
+
+<CardsMOT/>
+
+
+</MySiteLayout>
+
+<Footer/>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
